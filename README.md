@@ -20,12 +20,12 @@ Requirements
 
 Configuration
 
-  $ git clone https://github.com/yoggy/mqtt-14seg.git
-  $ cd mqtt-14seg.git
-  $ cp config.ino.sample config.ino
-  $ vi config.ino
-  ※ edit mqtt_host, mqtt_username, mqtt_password, topic...
-  $ open mqtt-14seg.ino
+    $ git clone https://github.com/yoggy/mqtt-14seg.git
+    $ cd mqtt-14seg.git
+    $ cp config.ino.sample config.ino
+    $ vi config.ino
+    ※ edit mqtt_host, mqtt_username, mqtt_password, topic...
+    $ open mqtt-14seg.ino
 
 Copyright and license
 ----
