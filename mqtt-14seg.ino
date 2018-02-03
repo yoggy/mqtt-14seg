@@ -1,6 +1,31 @@
+//
+//  mqtt-14seg.ino - displays a message to Adafruit 14-Seg LED via MQTT.
+//
+//  Requirements:
+//    - Adafruit 14-Segment Alphanumeric LED FeatherWing 
+//      - https://www.adafruit.com/product/3089
+//      - https://learn.adafruit.com/14-segment-alpha-numeric-led-featherwing/usage
+//    - Adafruit-GFX-Library
+//      - https://github.com/adafruit/Adafruit-GFX-Library
+//    - Adafruit-LED-Backpack-Library
+//      - https://github.com/adafruit/Adafruit_LED_Backpack/
+//  
+//  How to:
+//    $ git clone https://github.com/yoggy/mqtt-14seg.git
+//    $ cd mqtt-14seg.git
+//    $ cp config.ino.sample config.ino
+//    $ vi config.ino
+//    ※ edit mqtt_host, mqtt_username, mqtt_password, topic...
+//    $ open mqtt-14seg.ino
+//  
+//  Copyright and license:
+//    Copyright(c) 2018 yoggy<yoggy0@gmail.com>
+//    Released under the MIT license
+//    http://opensource.org/licenses/mit-license.php;
+//
 #include <Wire.h>
-#include <Adafruit_GFX.h>
-#include "Adafruit_LEDBackpack.h"
+#include <Adafruit_GFX.h>         // https://github.com/adafruit/Adafruit-GFX-Library
+#include <Adafruit_LEDBackpack.h> // https://github.com/adafruit/Adafruit_LED_Backpack/
 
 // for Wifi settings
 #include <ESP8266WiFi.h>
